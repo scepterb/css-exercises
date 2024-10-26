@@ -62,8 +62,8 @@ button.continue {
   color: white;
 }
 button.continue:hover {
-  background-color: lightblue;
-  border: lightblue;
+  background-color: mediumblue;
+  border-color: mediumblue;
 } 
 
 button.cancel {
@@ -73,6 +73,7 @@ button.cancel {
 }
 button.cancel:hover {
   background-color: lightgrey;
+  border-color: lightgrey;
 } 
 
 .modal {
