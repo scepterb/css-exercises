@@ -61,9 +61,41 @@ button.continue {
   border: 1px solid royalblue;
   color: white;
 }
+button.continue:hover {
+  background-color: lightblue;
+  border: lightblue;
+} 
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+button.cancel:hover {
+  background-color: lightgrey;
+} 
+
+.modal {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.header {
+  font-weight: bolder;
+  display: flex;
+  font-size: 22px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alert {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* To ensure the icon is not crushed by the text */
+.icon {
+  flex-shrink: 0;
 }
